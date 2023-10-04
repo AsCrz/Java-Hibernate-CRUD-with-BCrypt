@@ -501,7 +501,7 @@ System.out.println("""
                 cadastrarProfessor();
                 break;
             case 5:
-                alterarAluno();
+                alterarProfessor();
                 break;
             case 6:
                 excluirAluno();
