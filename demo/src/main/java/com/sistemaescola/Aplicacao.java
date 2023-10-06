@@ -504,7 +504,7 @@ System.out.println("""
                 alterarProfessor();
                 break;
             case 6:
-                excluirAluno();
+                excluirProfessor();
                 break;
             case 7:
                 listarAlunos();
@@ -626,8 +626,8 @@ System.out.println("""
                 System.out.println("Seu salario é de " + professor.getSalario());
             case 0:
                 System.out.println("Saindo...");
-                continuar = false;
-                break;
+                continuar = false;        
+                break;    
             default:
                 System.out.println("Opção inválida");
         }
